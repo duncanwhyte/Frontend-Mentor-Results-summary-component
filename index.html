@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div id="container">
+  <main>
+      <div id="result-container">  
+        <h2 id="your-result">Your Result</h2>
+        <div id="circle">
+          <p id="total-score">76</p>
+          <span id="total-score__limit">of 100</span>
+        </div>
+        <h3 id="result">Great</h3>
+        <p id="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div id="summary-container">
+      <h2 id="summary-title">Summary</h2>
+      <div id="skill-row" class="reaction-container">
+        <div id="skill">
+          <img id="icon" src="./assets/images/icon-reaction.svg" alt="">
+          <h4 id="reaction-title">Reaction</h4>
+        </div>
+        <p id="reaction-score">80<span id="score-limit"> / 100</span></p>
+      </div>
+      <div id="skill-row" class="memory-container">
+        <div id="skill">
+          <img id="icon" src="./assets/images/icon-memory.svg" alt="">
+          <h4 id="memory-title">Memory</h4>
+        </div>
+        <p id="memory-score">92<span id="score-limit"> / 100</span></p>
+      </div>
+      <div id="skill-row" class="verbal-container">
+        <div id="skill">
+          <img id="icon" src="./assets/images/icon-verbal.svg" alt="">
+          <h4 id="verbal-title">Verbal</h4>
+        </div>
+        <p id="verbal-score">61<span id="score-limit"> / 100</span></p>
+      </div>
+      <div id="skill-row" class="visual-container">
+        <div id="skill">
+          <img id="icon" src="./assets/images/icon-visual.svg" alt="">
+          <h4 id="visual-title">Visual</h4>
+        </div>
+        <p id="visual-score">72<span id="score-limit"> / 100</span></p>
+      </div>
+      <button id="cta-btn">Continue</button>
+    </div>
+  </main>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">duncanwhyte</a>.
+  </div>
+</body>
+</html>
